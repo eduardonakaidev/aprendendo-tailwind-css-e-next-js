@@ -7,13 +7,15 @@ import Logopng from "../public/logopng.png"
 
 
 export default function Home() {
+ 
   return (
+    
     <div className="h-screen bg-blue-950">
       <div className="flex flex-row justify-between pt-4 pb-1 bg-blue-900">
         <header className="flex flex-row space-x-4 items-center pl-16">
 
           <Link href="/">
-            <Image src={Logopng} className="h-32 w-32" />
+            <Image alt="logo" src={Logopng} className="h-32 w-32" />
           </Link>
           <h1 className="text-white text-2xl">Testando tailwind e next</h1>
         </header>
@@ -29,7 +31,7 @@ export default function Home() {
       </div>
       
       <main>
-
+        
       </main>
 
     </div>
